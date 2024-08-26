@@ -1,0 +1,125 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+}
+
+.logo_parent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+
+.menu {
+    color: black;
+    display: flex;
+
+}
+
+.menubar_list {
+    display: flex;
+}
+
+
+.create {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 60px;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.logo {
+    width: 70px;
+    /* padding: 5px; */
+    padding-left: 30px;
+}
+
+.images {
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.picture {
+    width: 170px;
+    height: 170px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+
+.dolfin {
+    margin-top: -35px;
+    position: absolute;
+    left: 47%;
+}
+
+.menubar {
+    background: black;
+    height: 200px;
+    color: white;
+}
+
+
+.navberlist li {
+    list-style: none;
+    margin: 10px;
+    list-style: none;
+}
+
+.navberlist li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+
+
+}
+
+
+p {
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.navberlist {
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu_parent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_menu {
+    margin-top: 25px;
+}
+
+.menu_list_item{
+     /* margin: 0px 7px 0px 4px; */
+     margin-left: 30px;
+     padding-right: 30px;
+     list-style-type: none;
+}
+
+.menu_list_item a {
+    text-decoration: none;
+    color: black;
+}
+.menu_list_item a:hover{
+    color: red;
+}
+
+       
